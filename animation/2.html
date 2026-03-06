@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>animation</title>
+    <style>
+        #box1{
+            height:70px;
+            width:50px;
+            border:2px solid black; margin:50px;padding:50px; 
+            background-color:red ;
+            position:relative;
+            animation-name:ghumakkad ;
+            animation-duration: 10s;animation-timing-function:ease-in-out ;
+            animation-delay: 1s;
+            animation-iteration-count: 5;
+            animation-direction: normal;
+
+        }
+        @keyframes ghumakkad {
+            0%{left:10px;
+                background-color: aqua;
+                transform: translatex(100px);
+
+            }
+            50%{left:60px; background-color: blue;
+                transform: translatey(100px);
+            }
+            100%{left:200px; background-color: blueviolet;
+            transform:translatex(100px);}
+        }
+          
+    </style>
+</head>
+<body>
+     
+        <div id="box1">BOX1</div>
+        
+    
+</body>
+</html>

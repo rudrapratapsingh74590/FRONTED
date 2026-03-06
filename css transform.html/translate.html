@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>translate</title>
+    <style>
+        .scale{
+            height:200px;
+            width:100px;
+            border:2px solid black; margin:50px;padding:50px;
+            transition-duration: 0.5s;
+            transition-timing-function: ease-in-out;
+            transition-property: all;
+        }
+        #box1{
+            background-color: blue;
+            height:50px;
+            width:50px;
+            margin:10px;
+        }
+        #box1:hover{
+            transform:translate(60px);
+        }/*scale(n) means  n times of  size */
+        #box2{
+            background-color: rgb(196, 9, 65);
+            height:50px;
+            width:50px;
+            margin:10px;
+            
+        }
+        #box2:hover{
+            transform:translate(50px ,50px);
+        }
+        #box3{
+            background-color: rgb(241, 125, 16);
+            height:50px;
+            width:50px;
+            margin:10px;
+        }
+        #box3:hover{
+            
+            transform:translatex(70px);
+        }
+        #box4{
+            background-color: rgb(223, 5, 5);
+            height:50px;
+            width:50px;
+            margin:10px;
+        }
+         #box4:hover{
+            transform:translatey(80px);
+        
+         }
+
+    </style>
+</head>
+<body>
+    <div class="scale">
+        <div id="box1">BOX1</div>
+        <div id="box2">BOX2</div>
+        <div id="box3">BOX3</div>
+        <div id="box4">BOX4</div>
+    </div>
+</body>
+</html>
